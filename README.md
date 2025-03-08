@@ -6,7 +6,7 @@
 ```bash
 git clone https://github.com/virtualguard101/space-calculator.git
 cd space-calculator
-python -i main.py
+python -i src/main.py
 ```
 
 ### 在python交互环境中查看用法
