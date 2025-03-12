@@ -1,7 +1,11 @@
 [project]
 name = "space-calculator"
 version = "0.2.0"
-description = "Add your description here"
+description = "A calculator for solid geometry implement by python."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[tool.black]
+line-length = 88  # 设置行长度为 88
+skip-string-normalization = true  # 跳过字符串规范化
