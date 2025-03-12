@@ -16,7 +16,13 @@
                 "ms-azuretools.vscode-docker",
                 "ms-python.black-formatter",
                 "ms-azuretools.vscode-docker"
-            ]
+            ],
+            "settings": {
+                "editor.tabSize": 4,
+                "editor.insertSpaces": true,
+                "editor.detectIndentation": true,
+                "editor.renderWhitespace": "all"
+            }
         }
     }
 }
